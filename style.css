@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+h2,
+h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#registration-form {
+    display: grid;
+    gap: 15px;
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+    padding: 8px 0;
+}
+
+input.invalid,
+select.invalid {
+    border-color: red;
+    background-color: #fffafa;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.85em;
+    height: 1em;
+}
+
+button#submit-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button#submit-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+#registered-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#registered-list-table th,
+#registered-list-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+#registered-list-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
